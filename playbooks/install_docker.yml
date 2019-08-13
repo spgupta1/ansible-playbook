@@ -1,0 +1,6 @@
+---
+- name: installing docker
+  hosts: all
+  become: true
+  roles:
+          - ansible-role-docker/install_docker
